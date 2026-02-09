@@ -1,40 +1,36 @@
-name: TalkSport Daily Sync
+name: Universal Playlist Engine
 on:
   schedule:
-    - cron: '0 7 * * *'
+    - cron: '0 9 * * *' # Runs at 9:00 AM UTC (Safe from quota resets)
   workflow_dispatch:
 
-# NEW: Explicitly grant write access to the repo
 permissions:
   contents: write
 
 jobs:
-  run-script:
+  engine_run:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
+      - name: Checkout Repo
         uses: actions/checkout@v3
-        with:
-          # Use a higher fetch depth to ensure git can push
-          fetch-depth: 0 
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      - name: Install Libraries
+      - name: Install Google Libs
         run: pip install google-api-python-client google-auth-oauthlib google-auth-httplib2
 
-      - name: Run Script
+      - name: Execute Engine
         env:
           YOUTUBE_TOKEN_PICKLE: ${{ secrets.YOUTUBE_TOKEN_PICKLE }}
         run: python main.py
 
-      - name: Save History
+      - name: Commit Database
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "AutoBot"
+          git config --global user.email "bot@github.com"
           git add seen_ids.txt
-          git commit -m "Update history [skip ci]" || echo "No new videos to commit"
+          git commit -m "Update seen database [skip ci]" || echo "No changes"
           git push
