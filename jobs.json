@@ -1,0 +1,37 @@
+[
+    {
+        "name": "TalkSport - Simon/Jordan",
+        "source_uu_id": "UUWw6scNyopJ0yjMu1SyOEyw",
+        "target_playlist": "PLoJvzSXcA7j_VONfig9ZksTPYN9Nz090V",
+        "keywords": ["Jordan", "Simon"],
+        "purge_after_days": 3
+    },
+    {
+        "name": "TalkSport - Darren Bent",
+        "source_uu_id": "UUWw6scNyopJ0yjMu1SyOEyw",
+        "target_playlist": "PLoJvzSXcA7j-NvCUml49Ogaa8R49a5rUp",
+        "keywords": ["Bent", "Darren"],
+        "purge_after_days": 3
+    },
+    {
+        "name": "WhistlinDiesel",
+        "source_uu_id": "UUdadyNDkeGg5J12qBsqjGz1g",
+        "target_playlist": "PLoJvzSXcA7j_wyNY5w2sVihebIit2ma-H",
+        "keywords": [""],
+        "purge_after_days": 14
+    },
+    {
+        "name": "I Did A Thing",
+        "source_uu_id": "UUJLZe_NoiG0hT7QCX_9vmQA",
+        "target_playlist": "PLoJvzSXcA7j_wyNY5w2sVihebIit2ma-H",
+        "keywords": [""],
+        "purge_after_days": 14
+    },
+    {
+        "name": "The Boyscast",
+        "source_uu_id": "UUzKFvBRI6VT3jYJq6a820nA",
+        "target_playlist": "PLoJvzSXcA7j_wyNY5w2sVihebIit2ma-H",
+        "keywords": ["Episode"],
+        "purge_after_days": 3
+    }
+]
