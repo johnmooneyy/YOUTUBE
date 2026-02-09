@@ -1,0 +1,33 @@
+name: TalkSport Daily Sync
+on:
+  schedule:
+    - cron: '0 7 * * *' # Runs at 7 AM UTC every day
+  workflow_dispatch: # Allows you to click "Run Now" button on GitHub to test it
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Libraries
+        run: pip install google-api-python-client google-auth-oauthlib google-auth-httplib2
+
+      - name: Run Script
+        env:
+          YOUTUBE_TOKEN_PICKLE: ${{ secrets.YOUTUBE_TOKEN_PICKLE }}
+        run: python main.py
+
+      - name: Save History
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add seen_ids.txt
+          git commit -m "Update history" || echo "No new videos to commit"
+          git push
