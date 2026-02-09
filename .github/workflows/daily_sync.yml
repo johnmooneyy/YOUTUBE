@@ -1,8 +1,12 @@
 name: TalkSport Daily Sync
 on:
   schedule:
-    - cron: '0 7 * * *' # Runs at 7 AM UTC every day
-  workflow_dispatch: # Allows you to click "Run Now" button on GitHub to test it
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+
+# NEW: Explicitly grant write access to the repo
+permissions:
+  contents: write
 
 jobs:
   run-script:
@@ -10,6 +14,9 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
+        with:
+          # Use a higher fetch depth to ensure git can push
+          fetch-depth: 0 
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -26,8 +33,8 @@ jobs:
 
       - name: Save History
         run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add seen_ids.txt
-          git commit -m "Update history" || echo "No new videos to commit"
+          git commit -m "Update history [skip ci]" || echo "No new videos to commit"
           git push
