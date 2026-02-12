@@ -7,7 +7,7 @@
             "Jordan",
             "Simon"
         ],
-        "purge_after_days": 2
+        "purge_after_days": 10
     },
     {
         "name": "TalkSport - Darren Bent",
@@ -17,11 +17,11 @@
             "Bent",
             "Darren"
         ],
-        "purge_after_days": 2
+        "purge_after_days": 10
     },
     {
         "name": "WhistlinDiesel",
-        "source_uu_id": "UUdadyNDkeGg5J12qBsqjGz1g",
+        "source_uu_id": "UUdqp0KK_Io7TwK5cJMBvB0Q",
         "target_playlist": "PLoJvzSXcA7j_wyNY5w2sVihebIit2ma-H",
         "keywords": [
             ""
@@ -30,7 +30,7 @@
     },
     {
         "name": "I Did A Thing",
-        "source_uu_id": "UUJLZe_NoiG0hT7QCX_9vmQA",
+        "source_uu_id": "UUJLZe_NoiG0hT7QCX_9vmqw",
         "target_playlist": "PLoJvzSXcA7j_wyNY5w2sVihebIit2ma-H",
         "keywords": [
             ""
@@ -44,7 +44,7 @@
         "keywords": [
             "Episode"
         ],
-        "purge_after_days": 7
+        "purge_after_days": 14
     },
     {
         "name": "Danny Polishchuk Comedy",
