@@ -7,7 +7,7 @@
             "Jordan",
             "Simon"
         ],
-        "purge_after_days": 3
+        "purge_after_days": 2
     },
     {
         "name": "TalkSport - Darren Bent",
@@ -17,7 +17,7 @@
             "Bent",
             "Darren"
         ],
-        "purge_after_days": 3
+        "purge_after_days": 2
     },
     {
         "name": "WhistlinDiesel",
@@ -44,7 +44,7 @@
         "keywords": [
             "Episode"
         ],
-        "purge_after_days": 3
+        "purge_after_days": 7
     },
     {
         "name": "Danny Polishchuk Comedy",
