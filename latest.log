@@ -1,0 +1,17 @@
+[2026-02-12 10:06:37] === ENGINE STARTED ===
+[2026-02-12 10:06:38] --- JOB: TalkSport - Simon/Jordan ---
+[2026-02-12 10:06:57]     Cleaned 49 old videos.
+[2026-02-12 10:06:57]     No new matching videos found.
+[2026-02-12 10:06:57] --- JOB: TalkSport - Darren Bent ---
+[2026-02-12 10:07:05]     Cleaned 20 old videos.
+[2026-02-12 10:07:06]     [+] ADDED: "STAY AWAY FROM MANAGEMENT!" Spurs Fan E...
+[2026-02-12 10:07:06] --- JOB: WhistlinDiesel ---
+[2026-02-12 10:07:06]     Error scanning source: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?playlistId=UUdadyNDkeGg5J12qBsqjGz1g&part=snippet%2CcontentDetails&maxResults=20&alt=json returned "Invalid Value". Details: "[{'message': 'Invalid Value', 'domain': 'global', 'reason': 'invalid'}]">
+[2026-02-12 10:07:06] --- JOB: I Did A Thing ---
+[2026-02-12 10:07:06]     Error scanning source: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?playlistId=UUJLZe_NoiG0hT7QCX_9vmQA&part=snippet%2CcontentDetails&maxResults=20&alt=json returned "The playlist identified with the request's <code>playlistId</code> parameter cannot be found.". Details: "[{'message': "The playlist identified with the request's <code>playlistId</code> parameter cannot be found.", 'domain': 'youtube.playlistItem', 'reason': 'playlistNotFound', 'location': 'playlistId', 'locationType': 'parameter'}]">
+[2026-02-12 10:07:06] --- JOB: The Boyscast ---
+[2026-02-12 10:07:08]     Cleaned 3 old videos.
+[2026-02-12 10:07:08]     No new matching videos found.
+[2026-02-12 10:07:08] --- JOB: Danny Polishchuk Comedy ---
+[2026-02-12 10:07:08]     No new matching videos found.
+[2026-02-12 10:07:08] === BATCH COMPLETE ===
