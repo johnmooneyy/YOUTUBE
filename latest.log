@@ -1,14 +1,15 @@
-[2026-03-26 10:10:50] === ENGINE STARTED ===
-[2026-03-26 10:10:50] --- JOB: TalkSport - Simon/Jordan ---
-[2026-03-26 10:11:21]     Error scanning source: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?playlistId=UUWw6scNyopJ0yjMu1SyOEyw&part=snippet%2CcontentDetails&maxResults=20&alt=json returned "The playlist identified with the request's <code>playlistId</code> parameter cannot be found.". Details: "[{'message': "The playlist identified with the request's <code>playlistId</code> parameter cannot be found.", 'domain': 'youtube.playlistItem', 'reason': 'playlistNotFound', 'location': 'playlistId', 'locationType': 'parameter'}]">
-[2026-03-26 10:11:21] --- JOB: TalkSport - Darren Bent ---
-[2026-03-26 10:11:22]     [+] ADDED: "HE'S BEEN GREAT!" Darren Bent claims Mo...
-[2026-03-26 10:11:22] --- JOB: WhistlinDiesel ---
-[2026-03-26 10:11:22]     No new matching videos found.
-[2026-03-26 10:11:22] --- JOB: I Did A Thing ---
-[2026-03-26 10:11:23]     No new matching videos found.
-[2026-03-26 10:11:23] --- JOB: The Boyscast ---
-[2026-03-26 10:11:23]     No new matching videos found.
-[2026-03-26 10:11:23] --- JOB: Danny Polishchuk Comedy ---
-[2026-03-26 10:11:23]     No new matching videos found.
-[2026-03-26 10:11:23] === BATCH COMPLETE ===
+[2026-03-27 10:05:37] === ENGINE STARTED ===
+[2026-03-27 10:05:37] --- JOB: TalkSport - Simon/Jordan ---
+[2026-03-27 10:05:38]     Cleaned 1 old videos.
+[2026-03-27 10:05:38]     [+] ADDED: 🚨White & Jordan LIVE on talkSPORT | 26-M...
+[2026-03-27 10:05:38] --- JOB: TalkSport - Darren Bent ---
+[2026-03-27 10:05:40]     [+] ADDED: "YOU HAVE TO SELL HIM!" Darren Bent INSI...
+[2026-03-27 10:05:40] --- JOB: WhistlinDiesel ---
+[2026-03-27 10:05:40]     No new matching videos found.
+[2026-03-27 10:05:40] --- JOB: I Did A Thing ---
+[2026-03-27 10:05:40]     No new matching videos found.
+[2026-03-27 10:05:40] --- JOB: The Boyscast ---
+[2026-03-27 10:05:40]     No new matching videos found.
+[2026-03-27 10:05:40] --- JOB: Danny Polishchuk Comedy ---
+[2026-03-27 10:05:41]     No new matching videos found.
+[2026-03-27 10:05:41] === BATCH COMPLETE ===
